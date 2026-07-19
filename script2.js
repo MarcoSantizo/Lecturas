@@ -1,8 +1,11 @@
 let lecturas = [];
 
+let listaActual = [];
+let indiceActual = -1;
+let libroActual = null;
+
 const biblioteca = document.getElementById("biblioteca");
 const buscador = document.getElementById("buscador");
-
 
 fetch("data/lecturas.json")
 .then(respuesta => respuesta.json())
@@ -25,13 +28,11 @@ function mostrarContador(){
 
 }
 
-
 function mostrarLecturas(lista) {
 
     listaActual = lista;
 
     biblioteca.innerHTML = "";
-
 
     if(lista.length === 0){
 
@@ -42,7 +43,7 @@ function mostrarLecturas(lista) {
             <h2>🔎 No encontramos lecturas</h2>
 
             <p>
-            Intenta buscar con otro título o autor.
+                Intenta buscar con otro título o autor.
             </p>
 
         </div>
@@ -53,8 +54,7 @@ function mostrarLecturas(lista) {
 
     }
 
-
-  lista.forEach((libro, indice) => {
+    lista.forEach((libro, indice) => {
 
         biblioteca.innerHTML += `
 
@@ -69,11 +69,11 @@ function mostrarLecturas(lista) {
                 <p>${libro.autor}</p>
 
                 <button class="boton"
-onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
+                    onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
 
-📖 Leer PDF
+                    📖 Leer PDF
 
-</button>
+                </button>
 
             </div>
 
@@ -85,13 +85,10 @@ onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
 
 }
 
-
-// Buscador automático mientras escriben
-
+// Buscador automático
 buscador.addEventListener("input", function(){
 
-    const texto = this.value.toLowerCase();
-
+    const texto = this.value.toLowerCase().trim();
 
     const resultados = lecturas.filter(libro => {
 
@@ -105,52 +102,48 @@ buscador.addEventListener("input", function(){
 
     });
 
-
     mostrarLecturas(resultados);
 
 });
+
 function leerPDF(pdf, titulo, indice){
 
     indiceActual = indice;
     libroActual = listaActual[indice];
 
     const visor = document.getElementById("visor");
-
-    const biblioteca = document.getElementById("biblioteca");
-
     const lector = document.getElementById("lectorPDF");
-
     const tituloPDF = document.getElementById("tituloPDF");
-
 
     biblioteca.style.display = "none";
 
-
     tituloPDF.textContent = "📖 Leyendo: " + titulo;
 
-
-    lector.src = "pdfjs/web/viewer.html?file=" + 
-    encodeURIComponent(window.location.origin + "/Lecturas/" + pdf);
-
+    lector.src =
+        "pdfjs/web/viewer.html?file=" +
+        encodeURIComponent(window.location.origin + "/Lecturas/" + pdf);
 
     visor.style.display = "block";
 
-
     visor.scrollIntoView({
-        behavior:"smooth"
+        behavior: "smooth"
     });
 
 }
+
 function volverLecturas(){
-    let listaActual = [];
-    let indiceActual = -1;
-    let libroActual = null;
+
+    alert("Volver ejecutado");
+
+    const cajaBusqueda = document.getElementById("buscador");
+
+    cajaBusqueda.value = "";
 
     document.getElementById("visor").style.display = "none";
 
-    document.getElementById("biblioteca").style.display = "grid";
+    biblioteca.style.display = "grid";
 
-    mostrarLecturas(listaActual);
+    mostrarLecturas(lecturas);
 
     window.scrollTo({
 
@@ -161,29 +154,27 @@ function volverLecturas(){
     });
 
 }
+
 function entrarBiblioteca(){
 
     const bienvenida = document.getElementById("bienvenida");
 
     bienvenida.style.display = "none";
 
+    document.getElementById("contenido").style.display = "block";
 
-   document.getElementById("contenido")
-.style.display = "block";
-
-document.getElementById("contenido")
-.style.visibility = "visible";
-
+    document.getElementById("contenido").style.visibility = "visible";
 
     window.scrollTo({
 
-        top:0,
+        top: 0,
 
-        behavior:"smooth"
+        behavior: "smooth"
 
     });
 
 }
+
 function siguientePDF(){
 
     if(indiceActual < listaActual.length - 1){
