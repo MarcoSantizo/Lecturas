@@ -69,7 +69,7 @@ function mostrarLecturas(lista) {
                 <p>${libro.autor}</p>
 
                 <button class="boton"
-onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})"
+onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
 
 📖 Leer PDF
 
