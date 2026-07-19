@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Biblioteca Digital</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+
+<body>
+
+
+<section id="bienvenida">
+
+    <div class="portada">
+
+
+    <img 
+    src="logo/logo_cobach.png" 
+    class="logo"
+    alt="Logo institucional">
+
+
+    <h1>📚 Biblioteca Digital</h1>
+
+
+    <h2>
+        Colegio de Bachilleres de Chiapas - Plantel 217 Soconusco
+    </h2>
+
+
+    <p>
+        Colección de Lecturas para Adolescentes de Lucero Lozano
+    </p>
+
+
+    <p>
+        Área de Lenguaje y Comunicación
+    </p>
+
+
+    <p>
+        Ciclo escolar 2026B
+    </p>
+
+
+    <p>
+        Profesor: Marco Antonio Santizo Ramírez
+    </p>
+
+
+    <button onclick="entrarBiblioteca()">
+
+        📖 Entrar a la biblioteca
+
+    </button>
+
+
+</div>
+
+</section>
+
+
+
+<div id="contenido">
+
+
+<header>
+
+    <h1>📚 Biblioteca Digital</h1>
+
+    <p id="contador"></p>
+
+
+    <input 
+        type="text" 
+        id="buscador"
+        placeholder="Buscar una lectura..."
+    >
+
+</header>
+
+
+
+<main id="biblioteca">
+
+</main>
+
+
+
+<section id="visor">
+
+    <h2 id="tituloPDF"></h2>
+
+
+    <iframe 
+        id="lectorPDF"
+        src="">
+    </iframe>
+
+
+    <button id="volver" onclick="volverLecturas()">
+
+        ⬆ Volver a lecturas
+
+    </button>
+
+
+</section>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+<footer>
+
+    <p>
+    📚 Biblioteca Digital |
+    Material de apoyo académico
+    </p>
+
+</footer>
+</body>
+
+</html>
