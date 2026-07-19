@@ -133,8 +133,6 @@ function leerPDF(pdf, titulo, indice){
 
 function volverLecturas(){
 
-    alert("Volver ejecutado");
-
     const cajaBusqueda = document.getElementById("buscador");
 
     cajaBusqueda.value = "";
