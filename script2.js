@@ -28,6 +28,8 @@ function mostrarContador(){
 
 function mostrarLecturas(lista) {
 
+    listaActual = lista;
+
     biblioteca.innerHTML = "";
 
 
@@ -66,7 +68,7 @@ function mostrarLecturas(lista) {
 
                 <p>${libro.autor}</p>
 
-             <button class="boton" 
+                <button class="boton"
 onclick="leerPDF('${libro.pdf}', '${libro.titulo}')">
 
 📖 Leer PDF
@@ -137,10 +139,13 @@ function leerPDF(pdf, titulo){
 
 }
 function volverLecturas(){
+    let listaActual = [];
 
     document.getElementById("visor").style.display = "none";
 
     document.getElementById("biblioteca").style.display = "grid";
+
+    mostrarLecturas(listaActual);
 
     window.scrollTo({
 
