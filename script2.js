@@ -111,9 +111,14 @@ function leerPDF(pdf, titulo){
 
     const visor = document.getElementById("visor");
 
+    const biblioteca = document.getElementById("biblioteca");
+
     const lector = document.getElementById("lectorPDF");
 
     const tituloPDF = document.getElementById("tituloPDF");
+
+
+    biblioteca.style.display = "none";
 
 
     tituloPDF.textContent = "📖 Leyendo: " + titulo;
@@ -132,6 +137,10 @@ function leerPDF(pdf, titulo){
 
 }
 function volverLecturas(){
+
+    document.getElementById("visor").style.display = "none";
+
+    document.getElementById("biblioteca").style.display = "grid";
 
     window.scrollTo({
 
