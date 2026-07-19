@@ -119,7 +119,8 @@ function leerPDF(pdf, titulo){
     tituloPDF.textContent = "📖 Leyendo: " + titulo;
 
 
-    lector.src = "pdfjs/web/viewer.html?file=" + encodeURIComponent(pdf);
+    lector.src = "pdfjs/web/viewer.html?file=" + 
+    encodeURIComponent(window.location.origin + "/Lecturas/" + pdf);
 
 
     visor.style.display = "block";
