@@ -54,7 +54,7 @@ function mostrarLecturas(lista) {
     }
 
 
-    lista.forEach(libro => {
+  lista.forEach((libro, indice) => {
 
         biblioteca.innerHTML += `
 
@@ -69,7 +69,7 @@ function mostrarLecturas(lista) {
                 <p>${libro.autor}</p>
 
                 <button class="boton"
-onclick="leerPDF('${libro.pdf}', '${libro.titulo}')">
+onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})"
 
 📖 Leer PDF
 
@@ -109,7 +109,10 @@ buscador.addEventListener("input", function(){
     mostrarLecturas(resultados);
 
 });
-function leerPDF(pdf, titulo){
+function leerPDF(pdf, titulo, indice){
+
+    indiceActual = indice;
+    libroActual = listaActual[indice];
 
     const visor = document.getElementById("visor");
 
@@ -140,6 +143,8 @@ function leerPDF(pdf, titulo){
 }
 function volverLecturas(){
     let listaActual = [];
+    let indiceActual = -1;
+    let libroActual = null;
 
     document.getElementById("visor").style.display = "none";
 
@@ -177,5 +182,32 @@ document.getElementById("contenido")
         behavior:"smooth"
 
     });
+
+}
+function siguientePDF(){
+
+    if(indiceActual < listaActual.length - 1){
+
+        indiceActual++;
+
+        const libro = listaActual[indiceActual];
+
+        leerPDF(libro.pdf, libro.titulo, indiceActual);
+
+    }
+
+}
+
+function anteriorPDF(){
+
+    if(indiceActual > 0){
+
+        indiceActual--;
+
+        const libro = listaActual[indiceActual];
+
+        leerPDF(libro.pdf, libro.titulo, indiceActual);
+
+    }
 
 }
