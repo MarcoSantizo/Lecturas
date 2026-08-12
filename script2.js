@@ -121,7 +121,7 @@ function leerPDF(pdf, titulo, indice){
 
     lector.src =
         "pdfjs/web/viewer.html?file=" +
-        encodeURIComponent(window.location.origin + "/Lecturas/" + pdf);
+        encodeURIComponent(window.location.origin + "/lecturas/" + pdf);
 
     visor.style.display = "block";
 
