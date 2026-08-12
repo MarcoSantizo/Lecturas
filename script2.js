@@ -54,34 +54,51 @@ function mostrarLecturas(lista) {
 
     }
 
-    lista.forEach((libro, indice) => {
+lista.forEach((libro, indice) => {
 
-        biblioteca.innerHTML += `
+    const activa =
+        libro.titulo === "Manual para el Estudiante de Lenguaje";
 
-        <div class="tarjeta">
+    biblioteca.innerHTML += `
 
-            <img src="${libro.imagen}" alt="${libro.titulo}">
+    <div class="tarjeta ${activa ? "" : "desactivada"}">
 
-            <div class="info">
+        <img src="${libro.imagen}" alt="${libro.titulo}">
 
-                <h2>${libro.titulo}</h2>
+        <div class="info">
 
-                <p>${libro.autor}</p>
+            <h2>${libro.titulo}</h2>
 
+            <p>${libro.autor}</p>
+
+            ${
+                activa
+                ?
+                `
                 <button class="boton"
                     onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
 
                     📖 Leer PDF
 
                 </button>
+                `
+                :
+                `
+                <button class="boton boton-bloqueado" disabled>
 
-            </div>
+                    🔒 No disponible
+
+                </button>
+                `
+            }
 
         </div>
 
-        `;
+    </div>
 
-    });
+    `;
+
+});
 
 }
 
