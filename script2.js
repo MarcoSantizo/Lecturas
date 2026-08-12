@@ -57,7 +57,7 @@ function mostrarLecturas(lista) {
 lista.forEach((libro, indice) => {
 
     const activa =
-        libro.titulo === "Manual para el Estudiante de Lenguaje";
+    libro.titulo === "Manual del Estudiante Curso propedéutico: Lenguaje";
 
     biblioteca.innerHTML += `
 
