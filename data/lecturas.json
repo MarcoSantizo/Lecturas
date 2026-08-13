@@ -42,318 +42,318 @@
         "pdf": "pdf/Cuento de la maquina.pdf"
     },
     {
-    "titulo": "De preferencia guapitos de cara",
-    "autor": "Autor: Andreu Martín",
-    "categoria": "General",
-    "imagen": "img/De preferencia guapitos de cara.jpg",
-    "pdf": "pdf/De preferencia guapitos de cara.pdf"
+        "titulo": "De preferencia guapitos de cara",
+        "autor": "Autor: Andreu Martín",
+        "categoria": "General",
+        "imagen": "img/De preferencia guapitos de cara.jpg",
+        "pdf": "pdf/De preferencia guapitos de cara.pdf"
     },
     {
-    "titulo": "Don Rodrigo de Córdova",
-    "autor": "Autor: Mario Abril",
-    "categoria": "General",
-    "imagen": "img/Don Rodrigo de Córdova.jpg",
-    "pdf": "pdf/Don Rodrigo de Córdova.pdf"
+        "titulo": "Don Rodrigo de Córdova",
+        "autor": "Autor: Mario Abril",
+        "categoria": "General",
+        "imagen": "img/Don Rodrigo de Córdova.jpg",
+        "pdf": "pdf/Don Rodrigo de Córdova.pdf"
     },
     {
-    "titulo": "El amor... es poesía",
-    "autor": "Autor: Varios",
-    "categoria": "General",
-    "imagen": "img/El amor... es poesía.jpg",
-    "pdf": "pdf/El amor... es poesía.pdf"
+        "titulo": "El amor... es poesía",
+        "autor": "Autor: Varios",
+        "categoria": "General",
+        "imagen": "img/El amor... es poesía.jpg",
+        "pdf": "pdf/El amor... es poesía.pdf"
     },
     {
-    "titulo": "El anillo de Thoth",
-    "autor": "Autor: Arthur Conan Doyle",
-    "categoria": "General",
-    "imagen": "img/El anillo de Thoth.jpg",
-    "pdf": "pdf/El anillo de Thoth.pdf"
+        "titulo": "El anillo de Thoth",
+        "autor": "Autor: Arthur Conan Doyle",
+        "categoria": "General",
+        "imagen": "img/El anillo de Thoth.jpg",
+        "pdf": "pdf/El anillo de Thoth.pdf"
     },
     {
-    "titulo": "El candelabro",
-    "autor": "Autor: Elsie E. Medina de Espejel",
-    "categoria": "General",
-    "imagen": "img/El Candelabro.jpg",
-    "pdf": "pdf/El candelabro.pdf"
+        "titulo": "El candelabro",
+        "autor": "Autor: Elsie E. Medina de Espejel",
+        "categoria": "General",
+        "imagen": "img/El Candelabro.jpg",
+        "pdf": "pdf/El candelabro.pdf"
     },
     {
-    "titulo": "El chiquitito",
-    "autor": "Autor: Angel de Campo, Micrós",
-    "categoria": "General",
-    "imagen": "img/El Chiquitito.jpg",
-    "pdf": "pdf/El chiquitito.pdf"
+        "titulo": "El chiquitito",
+        "autor": "Autor: Angel de Campo, Micrós",
+        "categoria": "General",
+        "imagen": "img/El Chiquitito.jpg",
+        "pdf": "pdf/El chiquitito.pdf"
     },
     {
-    "titulo": "El círculo",
-    "autor": "Autor: Oscar Cerruto",
-    "categoria": "General",
-    "imagen": "img/El círculo.jpg",
-    "pdf": "pdf/El círculo.pdf"
+        "titulo": "El círculo",
+        "autor": "Autor: Oscar Cerruto",
+        "categoria": "General",
+        "imagen": "img/El círculo.jpg",
+        "pdf": "pdf/El círculo.pdf"
     },
     {
-    "titulo": "El cuarto de las pesadillas",
-    "autor": "Autor: Arthur Conn Doyle",
-    "categoria": "General",
-    "imagen": "img/El cuarto de las pesadillas.jpg",
-    "pdf": "pdf/El cuarto de las pesadillas.pdf"
+        "titulo": "El cuarto de las pesadillas",
+        "autor": "Autor: Arthur Conn Doyle",
+        "categoria": "General",
+        "imagen": "img/El cuarto de las pesadillas.jpg",
+        "pdf": "pdf/El cuarto de las pesadillas.pdf"
     },
     {
-    "titulo": "El escarabajo de oro",
-    "autor": "Autor: Edgar Allan Poe",
-    "categoria": "General",
-    "imagen": "img/El escarabajo de oro.jpg",
-    "pdf": "pdf/El escarabajo de oro.pdf"
+        "titulo": "El escarabajo de oro",
+        "autor": "Autor: Edgar Allan Poe",
+        "categoria": "General",
+        "imagen": "img/El escarabajo de oro.jpg",
+        "pdf": "pdf/El escarabajo de oro.pdf"
     },
     { 
-    "titulo": "El espejo del tiempo",
-    "autor": "Autor: José María Méndez",
-    "categoria": "General",
-    "imagen": "img/El espejo del tiempo.jpg",
-    "pdf": "pdf/El espejo del tiempo.pdf"
+        "titulo": "El espejo del tiempo",
+        "autor": "Autor: José María Méndez",
+        "categoria": "General",
+        "imagen": "img/El espejo del tiempo.jpg",
+        "pdf": "pdf/El espejo del tiempo.pdf"
     },
     {
-    "titulo": "El gran incendio",
-    "autor": "Autor: Ray Bradbury",
-    "categoria": "General",
-    "imagen": "img/El gran incendio.jpg",
-    "pdf": "pdf/El gran incendio.pdf"
+        "titulo": "El gran incendio",
+        "autor": "Autor: Ray Bradbury",
+        "categoria": "General",
+        "imagen": "img/El gran incendio.jpg",
+        "pdf": "pdf/El gran incendio.pdf"
     },
     {   
-    "titulo": "El gran gramatizador automático",
-    "autor": "Autor: Roald Dahl",
-    "categoria": "General",
-    "imagen": "img/El gran gramatizador automático.jpg",
-    "pdf": "pdf/El gran gramatizador automático.pdf"
+        "titulo": "El gran gramatizador automático",
+        "autor": "Autor: Roald Dahl",
+        "categoria": "General",
+        "imagen": "img/El gran gramatizador automático.jpg",
+        "pdf": "pdf/El gran gramatizador automático.pdf"
     },
     {
-    "titulo": "El miedo",
-    "autor": "Autor: Ramón María del Valle - Inclán",
-    "categoria": "General",
-    "imagen": "img/El miedo.jpg",
-    "pdf": "pdf/El miedo.pdf"
+        "titulo": "El miedo",
+        "autor": "Autor: Ramón María del Valle - Inclán",
+        "categoria": "General",
+        "imagen": "img/El miedo.jpg",
+        "pdf": "pdf/El miedo.pdf"
     },
     {
-    "titulo": "El prado de los cinco dueños",
-    "autor": "Autor: Pablo Zapata Lerga",
-    "categoria": "General",
-    "imagen": "img/El prado de los cinco dueños.jpg",
-    "pdf": "pdf/El prado de los cinco dueños.pdf"
+        "titulo": "El prado de los cinco dueños",
+        "autor": "Autor: Pablo Zapata Lerga",
+        "categoria": "General",
+        "imagen": "img/El prado de los cinco dueños.jpg",
+        "pdf": "pdf/El prado de los cinco dueños.pdf"
     },
     {
-    "titulo": "El transplante",
-    "autor": "Autor: A. Van Hageland",
-    "categoria": "General",
-    "imagen": "img/El transplante.jpg",
-    "pdf": "pdf/El transplante.pdf"
+        "titulo": "El transplante",
+        "autor": "Autor: A. Van Hageland",
+        "categoria": "General",
+        "imagen": "img/El transplante.jpg",
+        "pdf": "pdf/El transplante.pdf"
     },
     {
-    "titulo": "Eran morenos y de ojos dorados",
-    "autor": "Autor: Ray Bradbury",
-    "categoria": "General",
-    "imagen": "img/Eran morenos y de ojos dorados.jpg",
-    "pdf": "pdf/Eran morenos y de ojos dorados.pdf"
+        "titulo": "Eran morenos y de ojos dorados",
+        "autor": "Autor: Ray Bradbury",
+        "categoria": "General",
+        "imagen": "img/Eran morenos y de ojos dorados.jpg",
+        "pdf": "pdf/Eran morenos y de ojos dorados.pdf"
     },
     {
-    "titulo": "Frida",
-    "autor": "Autor: Yolanda Reyes",
-    "categoria": "General",
-    "imagen": "img/Frida.jpg",
-    "pdf": "pdf/Frida.pdf"
+        "titulo": "Frida",
+        "autor": "Autor: Yolanda Reyes",
+        "categoria": "General",
+        "imagen": "img/Frida.jpg",
+        "pdf": "pdf/Frida.pdf"
     },
     {
-    "titulo": "Historia del hombre que en lo alto del cielo amó una estrella",
-    "autor": "Autor: Eduardo Galeano",
-    "categoria": "General",
-    "imagen": "img/Historia del hombre.jpg",
-    "pdf": "pdf/Historia del hombre.pdf"
+        "titulo": "Historia del hombre que en lo alto del cielo amó una estrella",
+        "autor": "Autor: Eduardo Galeano",
+        "categoria": "General",
+        "imagen": "img/Historia del hombre.jpg",
+        "pdf": "pdf/Historia del hombre.pdf"
     },
     {
-    "titulo": "Instrucciones para leer un cuento de sentón",
-    "autor": "Autor: Francisco Hinojosa",
-    "categoria": "General",
-    "imagen": "img/Instrucciones para leer un cuento de sentón.jpg",
-    "pdf": "pdf/Instrucciones para leer un cuento de sentón.pdf"
+        "titulo": "Instrucciones para leer un cuento de sentón",
+        "autor": "Autor: Francisco Hinojosa",
+        "categoria": "General",
+        "imagen": "img/Instrucciones para leer un cuento de sentón.jpg",
+        "pdf": "pdf/Instrucciones para leer un cuento de sentón.pdf"
     },
     {
-    "titulo": "La acrópolis según Quico",
-    "autor": "Autor: Juan Sasturain",
-    "categoria": "General",
-    "imagen": "img/La acrópolis según Quico.jpg",
-    "pdf": "pdf/La acrópolis según Quico.pdf"
+        "titulo": "La acrópolis según Quico",
+        "autor": "Autor: Juan Sasturain",
+        "categoria": "General",
+        "imagen": "img/La acrópolis según Quico.jpg",
+        "pdf": "pdf/La acrópolis según Quico.pdf"
 },
 {
-    "titulo": "La banda moteada",
-    "autor": "Autor: Arthur Conan Doyle",
-    "categoria": "General",
-    "imagen": "img/La banda moteada.jpg",
-    "pdf": "pdf/La banda moteada.pdf"
+        "titulo": "La banda moteada",
+        "autor": "Autor: Arthur Conan Doyle",
+        "categoria": "General",
+        "imagen": "img/La banda moteada.jpg",
+        "pdf": "pdf/La banda moteada.pdf"
 },
 {
-    "titulo": "La campesina disfrazada",
-    "autor": "Autor: Alejandro Pushkin",
-    "categoria": "General",
-    "imagen": "img/La campesina disfrazada.jpg",
-    "pdf": "pdf/La campesina disfrazada.pdf"
+        "titulo": "La campesina disfrazada",
+        "autor": "Autor: Alejandro Pushkin",
+        "categoria": "General",
+        "imagen": "img/La campesina disfrazada.jpg",
+        "pdf": "pdf/La campesina disfrazada.pdf"
 },
 {
-    "titulo": "La chica de abajo",
-    "autor": "Autor: Carmen Martín Gaite",
-    "categoria": "General",
-    "imagen": "img/La chica de abajo.jpg",
-    "pdf": "pdf/La chica de abajo.pdf"
+        "titulo": "La chica de abajo",
+        "autor": "Autor: Carmen Martín Gaite",
+        "categoria": "General",
+        "imagen": "img/La chica de abajo.jpg",
+        "pdf": "pdf/La chica de abajo.pdf"
 },
 {
-    "titulo": "La divina enfermedad de la juventud",
-    "autor": "Autor: Emma Godoy",
-    "categoria": "General",
-    "imagen": "img/La divina enfermedad de la juventud.jpg",
-    "pdf": "pdf/La divina enfermedad de la juventud.pdf"
+        "titulo": "La divina enfermedad de la juventud",
+        "autor": "Autor: Emma Godoy",
+        "categoria": "General",
+        "imagen": "img/La divina enfermedad de la juventud.jpg",
+        "pdf": "pdf/La divina enfermedad de la juventud.pdf"
 },
 {
-    "titulo": "La gloria de los feos",
-    "autor": "Autor: Rosa Montero",
-    "categoria": "General",
-    "imagen": "img/La gloria de los feos.jpg",
-    "pdf": "pdf/La gloria de los feos.pdf"
+        "titulo": "La gloria de los feos",
+        "autor": "Autor: Rosa Montero",
+        "categoria": "General",
+        "imagen": "img/La gloria de los feos.jpg",
+        "pdf": "pdf/La gloria de los feos.pdf"
 },
 {
-    "titulo": "La hechizada",
-    "autor": "Autor: Manuel Mujica Laínez",
-    "categoria": "General",
-    "imagen": "img/La hechizada.jpg",
-    "pdf": "pdf/La hechizada.pdf"
+        "titulo": "La hechizada",
+        "autor": "Autor: Manuel Mujica Laínez",
+        "categoria": "General",
+        "imagen": "img/La hechizada.jpg",
+        "pdf": "pdf/La hechizada.pdf"
 },
 {
-    "titulo": "La casa nueva",
-    "autor": "Autor: Silvia Molina",
-    "categoria": "General",
-    "imagen": "img/La casa nueva.jpg",
-    "pdf": "pdf/La casa nueva.pdf"
+        "titulo": "La casa nueva",
+        "autor": "Autor: Silvia Molina",
+        "categoria": "General",
+        "imagen": "img/La casa nueva.jpg",
+        "pdf": "pdf/La casa nueva.pdf"
 },
 {
-    "titulo": "La ramaseca",
-    "autor": "Autor: Ana María Matute",
-    "categoria": "General",
-    "imagen": "img/La ramaseca.jpg",
-    "pdf": "pdf/La ramaseca.pdf"
+        "titulo": "La ramaseca",
+        "autor": "Autor: Ana María Matute",
+        "categoria": "General",
+        "imagen": "img/La ramaseca.jpg",
+        "pdf": "pdf/La ramaseca.pdf"
 },
 {
-    "titulo": "La tigresa",
-    "autor": "Autor: Bruno Traven",
-    "categoria": "General",
-    "imagen": "img/La tigresa.jpg",
-    "pdf": "pdf/La tigresa.pdf"
+        "titulo": "La tigresa",
+        "autor": "Autor: Bruno Traven",
+        "categoria": "General",
+        "imagen": "img/La tigresa.jpg",
+        "pdf": "pdf/La tigresa.pdf"
 },
 {
-    "titulo": "Las enaguas coloradas",
-    "autor": "Autor: Norma Román Calvo",
-    "categoria": "General",
-    "imagen": "img/Las enaguas coloradas.jpg",
-    "pdf": "pdf/Las enaguas coloradas.pdf"
+        "titulo": "Las enaguas coloradas",
+        "autor": "Autor: Norma Román Calvo",
+        "categoria": "General",
+        "imagen": "img/Las enaguas coloradas.jpg",
+        "pdf": "pdf/Las enaguas coloradas.pdf"
 },
 {
-    "titulo": "Las mulas de su excelencia",
-    "autor": "Autor: Vicente Riva Palacio",
-    "categoria": "General",
-    "imagen": "img/Las mulas de su excelencia.jpg",
-    "pdf": "pdf/Las mulas de su excelencia.pdf"
+        "titulo": "Las mulas de su excelencia",
+        "autor": "Autor: Vicente Riva Palacio",
+        "categoria": "General",
+        "imagen": "img/Las mulas de su excelencia.jpg",
+        "pdf": "pdf/Las mulas de su excelencia.pdf"
 },
 {
-    "titulo": "Llenadla de besos",
-    "autor": "Autor: Josep Vallverdú",
-    "categoria": "General",
-    "imagen": "img/Llenadla de besos.jpg",
-    "pdf": "pdf/Llenadla de besos.pdf"
+        "titulo": "Llenadla de besos",
+        "autor": "Autor: Josep Vallverdú",
+        "categoria": "General",
+        "imagen": "img/Llenadla de besos.jpg",
+        "pdf": "pdf/Llenadla de besos.pdf"
 },
 {
-    "titulo": "Los sordos",
-    "autor": "Autor: Germán Berdiales",
-    "categoria": "General",
-    "imagen": "img/Los sordos.jpg",
-    "pdf": "pdf/Los sordos.pdf"
+            "titulo": "Los sordos",
+            "autor": "Autor: Germán Berdiales",
+            "categoria": "General",
+            "imagen": "img/Los sordos.jpg",
+            "pdf": "pdf/Los sordos.pdf"
 },
 {
-    "titulo": "Mujeres de ojos grandes",
-    "autor": "Autor: Ángeles Mastretta",
-    "categoria": "General",
-    "imagen": "img/Mujeres de ojos grandes.jpg",
-    "pdf": "pdf/Mujeres de ojos grandes.pdf"
+        "titulo": "Mujeres de ojos grandes",
+        "autor": "Autor: Ángeles Mastretta",
+        "categoria": "General",
+        "imagen": "img/Mujeres de ojos grandes.jpg",
+        "pdf": "pdf/Mujeres de ojos grandes.pdf"
 },
 {
-    "titulo": "Miss Lunatic y el comisario OConnor",
-    "autor": "Autor: Carmen Martín Gaite",
-    "categoria": "General",
-    "imagen": "img/Miss Lunatic y el comisario Oconnor.jpg",
-    "pdf": "pdf/Miss Lunatic y el comisario Oconnor.pdf"
+        "titulo": "Miss Lunatic y el comisario OConnor",
+        "autor": "Autor: Carmen Martín Gaite",
+        "categoria": "General",
+        "imagen": "img/Miss Lunatic y el comisario Oconnor.jpg",
+        "pdf": "pdf/Miss Lunatic y el comisario Oconnor.pdf"
 },
 {
-    "titulo": "Muy mal",
-    "autor": "Autor: Isaac Asimov",
-    "categoria": "General",
-    "imagen": "img/Muy mal.jpg",
-    "pdf": "pdf/Muy mal.pdf"
+        "titulo": "Muy mal",
+        "autor": "Autor: Isaac Asimov",
+        "categoria": "General",
+        "imagen": "img/Muy mal.jpg",
+        "pdf": "pdf/Muy mal.pdf"
 },
 {
-    "titulo": "Pan de brujas",
-    "autor": "Autor: William Sydney Porter",
-    "categoria": "General",
-    "imagen": "img/Pan de brujas.jpg",
-    "pdf": "pdf/Pan de brujas.pdf"
+        "titulo": "Pan de brujas",
+        "autor": "Autor: William Sydney Porter",
+        "categoria": "General",
+        "imagen": "img/Pan de brujas.jpg",
+        "pdf": "pdf/Pan de brujas.pdf"
 },
 {
-    "titulo": "Poesías humorísticas 2",
-    "autor": "Autor: Varios",
-    "categoria": "General",
-    "imagen": "img/Poesías humorísticas 2.jpg",
-    "pdf": "pdf/Poesías humorísticas 2.pdf"
+        "titulo": "Poesías humorísticas 2",
+        "autor": "Autor: Varios",
+        "categoria": "General",
+        "imagen": "img/Poesías humorísticas 2.jpg",
+        "pdf": "pdf/Poesías humorísticas 2.pdf"
 },
 {
-    "titulo": "Prohibida la entrada",
-    "autor": "Autor: Fredric Brown",
-    "categoria": "General",
-    "imagen": "img/Prohibida la entrada.jpg",
-    "pdf": "pdf/Prohibida la entrada.pdf"
+        "titulo": "Prohibida la entrada",
+        "autor": "Autor: Fredric Brown",
+        "categoria": "General",
+        "imagen": "img/Prohibida la entrada.jpg",
+        "pdf": "pdf/Prohibida la entrada.pdf"
 },
 {
-    "titulo": "Qué me van a hacer papá",
-    "autor": "Autor: Vicente Leñero",
-    "categoria": "General",
-    "imagen": "img/Qué me van a hacer papá.jpg",
-    "pdf": "pdf/Qué me van a hacer papá.pdf"
+        "titulo": "Qué me van a hacer papá",
+        "autor": "Autor: Vicente Leñero",
+        "categoria": "General",
+        "imagen": "img/Qué me van a hacer papá.jpg",
+        "pdf": "pdf/Qué me van a hacer papá.pdf"
 },
 {
-    "titulo": "Sempronio",
-    "autor": "Autor: Agustín Cuzzani",
-    "categoria": "General",
-    "imagen": "img/Sempronio.jpg",
-    "pdf": "pdf/Sempronio.pdf"
+        "titulo": "Sempronio",
+        "autor": "Autor: Agustín Cuzzani",
+        "categoria": "General",
+        "imagen": "img/Sempronio.jpg",
+        "pdf": "pdf/Sempronio.pdf"
 },
 {
-    "titulo": "Una charla accidentada",
-    "autor": "Autor: Anton Chejov",
-    "categoria": "General",
-    "imagen": "img/Una charla accidentada.jpg",
-    "pdf": "pdf/Una charla accidentada.pdf"
+        "titulo": "Una charla accidentada",
+        "autor": "Autor: Anton Chejov",
+        "categoria": "General",
+        "imagen": "img/Una charla accidentada.jpg",
+        "pdf": "pdf/Una charla accidentada.pdf"
 },
 {
-    "titulo": "Una chica morena con pantalones vaqueros, a la que le gustaban los Rolling Stones",
-    "autor": "Autor: Ricardo Doménech",
-    "categoria": "General",
-    "imagen": "img/Una chica morena con pantalones vaqueros.jpg",
-    "pdf": "pdf/Una chica morena con pantalones vaqueros.pdf"
+        "titulo": "Una chica morena con pantalones vaqueros, a la que le gustaban los Rolling Stones",
+        "autor": "Autor: Ricardo Doménech",
+        "categoria": "General",
+        "imagen": "img/Una chica morena con pantalones vaqueros.jpg",
+        "pdf": "pdf/Una chica morena con pantalones vaqueros.pdf"
 },
 {
-    "titulo": "Un día de estos",
-    "autor": "Autor: Gabriel García Márquez",
-    "categoria": "General",
-    "imagen": "img/Un día de estos.jpg",
-    "pdf": "pdf/Un día de estos.pdf"
+        "titulo": "Un día de estos",
+        "autor": "Autor: Gabriel García Márquez",
+        "categoria": "General",
+        "imagen": "img/Un día de estos.jpg",
+        "pdf": "pdf/Un día de estos.pdf"
 },
 {
-    "titulo": "Viaje dentro de una almohada",
-    "autor": "Autor: Cheng Tsi-Ts’i",
-    "categoria": "General",
-    "imagen": "img/Viaje dentro de una almohada.jpg",
-    "pdf": "pdf/Viaje dentro de una almohada.pdf"
+        "titulo": "Viaje dentro de una almohada",
+        "autor": "Autor: Cheng Tsi-Ts’i",
+        "categoria": "General",
+        "imagen": "img/Viaje dentro de una almohada.jpg",
+        "pdf": "pdf/Viaje dentro de una almohada.pdf"
 }
 ]
