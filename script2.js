@@ -54,53 +54,37 @@ function mostrarLecturas(lista) {
 
     }
 
-lista.forEach((libro, indice) => {
+    lista.forEach((libro, indice) => {
 
-    const activa =
-    libro.titulo === "Manual del Estudiante Curso propedéutico: Lenguaje";
+        biblioteca.innerHTML += `
 
-    biblioteca.innerHTML += `
+        <div class="tarjeta">
 
-    <div class="tarjeta ${activa ? "" : "desactivada"}">
+            <img src="${libro.imagen}" alt="${libro.titulo}">
 
-        <img src="${libro.imagen}" alt="${libro.titulo}">
+            <div class="info">
 
-        <div class="info">
+                <h2>${libro.titulo}</h2>
 
-            <h2>${libro.titulo}</h2>
+                <p>${libro.autor}</p>
 
-            <p>${libro.autor}</p>
-
-            ${
-                activa
-                ?
-                `
                 <button class="boton"
                     onclick="leerPDF('${libro.pdf}', '${libro.titulo}', ${indice})">
 
                     📖 Leer PDF
 
                 </button>
-                `
-                :
-                `
-                <button class="boton boton-bloqueado" disabled>
 
-                    🔒 No disponible
-
-                </button>
-                `
-            }
+            </div>
 
         </div>
 
-    </div>
+        `;
 
-    `;
-
-});
+    });
 
 }
+
 
 // Buscador automático
 buscador.addEventListener("input", function(){
