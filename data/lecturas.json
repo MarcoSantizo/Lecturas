@@ -355,5 +355,12 @@
     "categoria": "General",
     "imagen": "img/Viaje dentro de una almohada.jpg",
     "pdf": "pdf/Viaje dentro de una almohada.pdf"
+},
+{
+    "titulo": "Manual del Estudiante Curso propedéutico: Lenguaje",
+    "autor": "COBACH",
+    "categoria": "General",
+    "imagen": "img/manual_curso.jpg",
+    "pdf": "pdf/Manual_para_el_Estudiante_Lenguaje_2026.pdf"
 }
 ]
